@@ -19,7 +19,8 @@ public String listarClientes() {
     }
 
     public static void main(String[] args) {
-  CadastroClientes cadastro = new CadastroClientes();
+        
+        CadastroClientes cadastro = new CadastroClientes();
 
         // Adicionando clientes físicos
         cadastro.adicionarCliente(new ClienteFisico("Ana", 25, 2500.0, 250.0));
